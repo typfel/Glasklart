@@ -1,0 +1,16 @@
+PODS:
+  - UIColor+Additions (1.0.0)
+  - UIColor-CrayolaCrayons (1.0.0)
+  - UIResponder+KeyboardCache (0.1)
+
+DEPENDENCIES:
+  - UIColor+Additions (~> 1.0.0)
+  - UIColor-CrayolaCrayons (~> 1.0.0)
+  - UIResponder+KeyboardCache (~> 0.1)
+
+SPEC CHECKSUMS:
+  UIColor+Additions: 1bd1e031e4cccad7665da14326f866ddae2b9c5f
+  UIColor-CrayolaCrayons: c36022d69f4bdc7a0f7ff4ad8b8ab1d14f89e6d5
+  UIResponder+KeyboardCache: 4e646d140212f8ee43f1560c11614634ad6dd063
+
+COCOAPODS: 0.29.0

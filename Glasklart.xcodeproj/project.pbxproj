@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165A3BBC18AFD8A800D1926C /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3BBB18AFD8A800D1926C /* CoreDataStack.m */; };
+		165A3BC218B016A200D1926C /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3BC118B016A200D1926C /* TodoTableViewCell.m */; };
+		1681588718B2D85100214BE2 /* FetchedResultsControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681588618B2D85100214BE2 /* FetchedResultsControllerDataSource.m */; };
+		1681588A18B400C400214BE2 /* DraggableCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681588918B400C400214BE2 /* DraggableCellController.m */; };
+		1681589018B5951A00214BE2 /* TodoTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681588F18B5951A00214BE2 /* TodoTableHeaderView.m */; };
+		1681589318B698C400214BE2 /* ReorderableCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681589218B698C400214BE2 /* ReorderableCellController.m */; };
+		168C9CEE18AFC8770070BDAC /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 168C9CED18AFC8770070BDAC /* Todo.m */; };
+		168C9CF118AFC8C80070BDAC /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 168C9CF018AFC8C80070BDAC /* Store.m */; };
 		16F2E7AD18AD6C57003EC330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7AC18AD6C57003EC330 /* Foundation.framework */; };
 		16F2E7AF18AD6C57003EC330 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7AE18AD6C57003EC330 /* CoreGraphics.framework */; };
 		16F2E7B118AD6C57003EC330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7B018AD6C57003EC330 /* UIKit.framework */; };
@@ -14,13 +22,16 @@
 		16F2E7B918AD6C57003EC330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7B818AD6C57003EC330 /* main.m */; };
 		16F2E7BD18AD6C57003EC330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7BC18AD6C57003EC330 /* AppDelegate.m */; };
 		16F2E7C018AD6C57003EC330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F2E7BE18AD6C57003EC330 /* Main.storyboard */; };
-		16F2E7C318AD6C57003EC330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7C218AD6C57003EC330 /* ViewController.m */; };
+		16F2E7C318AD6C57003EC330 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7C218AD6C57003EC330 /* TodoViewController.m */; };
 		16F2E7C518AD6C57003EC330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F2E7C418AD6C57003EC330 /* Images.xcassets */; };
 		16F2E7CC18AD6C57003EC330 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7CB18AD6C57003EC330 /* XCTest.framework */; };
 		16F2E7CD18AD6C57003EC330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7AC18AD6C57003EC330 /* Foundation.framework */; };
 		16F2E7CE18AD6C57003EC330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7B018AD6C57003EC330 /* UIKit.framework */; };
 		16F2E7D618AD6C57003EC330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F2E7D418AD6C57003EC330 /* InfoPlist.strings */; };
 		16F2E7D818AD6C57003EC330 /* GlasklartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7D718AD6C57003EC330 /* GlasklartTests.m */; };
+		16F2E7E318AD6D6E003EC330 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E7E118AD6D6E003EC330 /* Model.xcdatamodeld */; };
+		16F2E7E518AD71B5003EC330 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F2E7E418AD71B5003EC330 /* CoreData.framework */; };
+		82E5902D5CA7422C95C88F27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B1BD224E442B8B7BD2C08 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		165A3BBA18AFD8A800D1926C /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = Classes/CoreDataStack.h; sourceTree = "<group>"; };
+		165A3BBB18AFD8A800D1926C /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = Classes/CoreDataStack.m; sourceTree = "<group>"; };
+		165A3BC018B016A200D1926C /* TodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoTableViewCell.h; path = Classes/TodoTableViewCell.h; sourceTree = "<group>"; };
+		165A3BC118B016A200D1926C /* TodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoTableViewCell.m; path = Classes/TodoTableViewCell.m; sourceTree = "<group>"; };
+		1681588518B2D85100214BE2 /* FetchedResultsControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FetchedResultsControllerDataSource.h; path = Classes/FetchedResultsControllerDataSource.h; sourceTree = "<group>"; };
+		1681588618B2D85100214BE2 /* FetchedResultsControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FetchedResultsControllerDataSource.m; path = Classes/FetchedResultsControllerDataSource.m; sourceTree = "<group>"; };
+		1681588818B400C400214BE2 /* DraggableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableCellController.h; path = Classes/DraggableCellController.h; sourceTree = "<group>"; };
+		1681588918B400C400214BE2 /* DraggableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableCellController.m; path = Classes/DraggableCellController.m; sourceTree = "<group>"; };
+		1681588E18B5951A00214BE2 /* TodoTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoTableHeaderView.h; path = Classes/TodoTableHeaderView.h; sourceTree = "<group>"; };
+		1681588F18B5951A00214BE2 /* TodoTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoTableHeaderView.m; path = Classes/TodoTableHeaderView.m; sourceTree = "<group>"; };
+		1681589118B698C400214BE2 /* ReorderableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReorderableCellController.h; path = Classes/ReorderableCellController.h; sourceTree = "<group>"; };
+		1681589218B698C400214BE2 /* ReorderableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReorderableCellController.m; path = Classes/ReorderableCellController.m; sourceTree = "<group>"; };
+		168C9CEC18AFC8770070BDAC /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Todo.h; path = Classes/Todo.h; sourceTree = "<group>"; };
+		168C9CED18AFC8770070BDAC /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Todo.m; path = Classes/Todo.m; sourceTree = "<group>"; };
+		168C9CEF18AFC8C80070BDAC /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Store.h; path = Classes/Store.h; sourceTree = "<group>"; };
+		168C9CF018AFC8C80070BDAC /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Store.m; path = Classes/Store.m; sourceTree = "<group>"; };
 		16F2E7A918AD6C57003EC330 /* Glasklart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glasklart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F2E7AC18AD6C57003EC330 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16F2E7AE18AD6C57003EC330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +69,21 @@
 		16F2E7B618AD6C57003EC330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16F2E7B818AD6C57003EC330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16F2E7BA18AD6C57003EC330 /* Glasklart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glasklart-Prefix.pch"; sourceTree = "<group>"; };
-		16F2E7BB18AD6C57003EC330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		16F2E7BC18AD6C57003EC330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16F2E7BB18AD6C57003EC330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		16F2E7BC18AD6C57003EC330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		16F2E7BF18AD6C57003EC330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16F2E7C118AD6C57003EC330 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16F2E7C218AD6C57003EC330 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16F2E7C118AD6C57003EC330 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TodoViewController.h; path = Classes/TodoViewController.h; sourceTree = "<group>"; };
+		16F2E7C218AD6C57003EC330 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TodoViewController.m; path = Classes/TodoViewController.m; sourceTree = "<group>"; };
 		16F2E7C418AD6C57003EC330 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16F2E7CA18AD6C57003EC330 /* GlasklartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlasklartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F2E7CB18AD6C57003EC330 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		16F2E7D318AD6C57003EC330 /* GlasklartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlasklartTests-Info.plist"; sourceTree = "<group>"; };
 		16F2E7D518AD6C57003EC330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16F2E7D718AD6C57003EC330 /* GlasklartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlasklartTests.m; sourceTree = "<group>"; };
+		16F2E7E218AD6D6E003EC330 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		16F2E7E418AD71B5003EC330 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2DFF4BD1F34347C983BE74DD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8F6B1BD224E442B8B7BD2C08 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F2E7E518AD71B5003EC330 /* CoreData.framework in Frameworks */,
 				16F2E7AF18AD6C57003EC330 /* CoreGraphics.framework in Frameworks */,
 				16F2E7B118AD6C57003EC330 /* UIKit.framework in Frameworks */,
 				16F2E7AD18AD6C57003EC330 /* Foundation.framework in Frameworks */,
+				82E5902D5CA7422C95C88F27 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +112,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165A3BBD18AFF2AC00D1926C /* Todo View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16F2E7C118AD6C57003EC330 /* TodoViewController.h */,
+				16F2E7C218AD6C57003EC330 /* TodoViewController.m */,
+				165A3BC018B016A200D1926C /* TodoTableViewCell.h */,
+				165A3BC118B016A200D1926C /* TodoTableViewCell.m */,
+				1681588E18B5951A00214BE2 /* TodoTableHeaderView.h */,
+				1681588F18B5951A00214BE2 /* TodoTableHeaderView.m */,
+			);
+			name = "Todo View Controller";
+			sourceTree = "<group>";
+		};
 		16F2E7A018AD6C57003EC330 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +132,7 @@
 				16F2E7D118AD6C57003EC330 /* GlasklartTests */,
 				16F2E7AB18AD6C57003EC330 /* Frameworks */,
 				16F2E7AA18AD6C57003EC330 /* Products */,
+				2DFF4BD1F34347C983BE74DD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +148,12 @@
 		16F2E7AB18AD6C57003EC330 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				16F2E7E418AD71B5003EC330 /* CoreData.framework */,
 				16F2E7AC18AD6C57003EC330 /* Foundation.framework */,
 				16F2E7AE18AD6C57003EC330 /* CoreGraphics.framework */,
 				16F2E7B018AD6C57003EC330 /* UIKit.framework */,
 				16F2E7CB18AD6C57003EC330 /* XCTest.framework */,
+				8F6B1BD224E442B8B7BD2C08 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +161,19 @@
 		16F2E7B218AD6C57003EC330 /* Glasklart */ = {
 			isa = PBXGroup;
 			children = (
+				16F2E7E618AD792A003EC330 /* Model */,
+				165A3BBA18AFD8A800D1926C /* CoreDataStack.h */,
+				165A3BBB18AFD8A800D1926C /* CoreDataStack.m */,
 				16F2E7BB18AD6C57003EC330 /* AppDelegate.h */,
 				16F2E7BC18AD6C57003EC330 /* AppDelegate.m */,
+				1681588518B2D85100214BE2 /* FetchedResultsControllerDataSource.h */,
+				1681588618B2D85100214BE2 /* FetchedResultsControllerDataSource.m */,
+				1681588818B400C400214BE2 /* DraggableCellController.h */,
+				1681588918B400C400214BE2 /* DraggableCellController.m */,
+				1681589118B698C400214BE2 /* ReorderableCellController.h */,
+				1681589218B698C400214BE2 /* ReorderableCellController.m */,
+				165A3BBD18AFF2AC00D1926C /* Todo View Controller */,
 				16F2E7BE18AD6C57003EC330 /* Main.storyboard */,
-				16F2E7C118AD6C57003EC330 /* ViewController.h */,
-				16F2E7C218AD6C57003EC330 /* ViewController.m */,
 				16F2E7C418AD6C57003EC330 /* Images.xcassets */,
 				16F2E7B318AD6C57003EC330 /* Supporting Files */,
 			);
@@ -130,6 +187,7 @@
 				16F2E7B518AD6C57003EC330 /* InfoPlist.strings */,
 				16F2E7B818AD6C57003EC330 /* main.m */,
 				16F2E7BA18AD6C57003EC330 /* Glasklart-Prefix.pch */,
+				16F2E7E118AD6D6E003EC330 /* Model.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +210,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		16F2E7E618AD792A003EC330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				168C9CEC18AFC8770070BDAC /* Todo.h */,
+				168C9CED18AFC8770070BDAC /* Todo.m */,
+				168C9CEF18AFC8C80070BDAC /* Store.h */,
+				168C9CF018AFC8C80070BDAC /* Store.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F2E7DB18AD6C57003EC330 /* Build configuration list for PBXNativeTarget "Glasklart" */;
 			buildPhases = (
+				B0036F66DB80408CAD41743A /* Check Pods Manifest.lock */,
 				16F2E7A518AD6C57003EC330 /* Sources */,
 				16F2E7A618AD6C57003EC330 /* Frameworks */,
 				16F2E7A718AD6C57003EC330 /* Resources */,
+				FEFF7E0A936B493F8F65B3DA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +270,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jacob Persson";
 				TargetAttributes = {
+					16F2E7A818AD6C57003EC330 = {
+						DevelopmentTeam = 57A5PY72HT;
+					};
 					16F2E7C918AD6C57003EC330 = {
 						TestTargetID = 16F2E7A818AD6C57003EC330;
 					};
@@ -244,14 +318,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B0036F66DB80408CAD41743A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFF7E0A936B493F8F65B3DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16F2E7A518AD6C57003EC330 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F2E7C318AD6C57003EC330 /* ViewController.m in Sources */,
+				168C9CEE18AFC8770070BDAC /* Todo.m in Sources */,
+				16F2E7C318AD6C57003EC330 /* TodoViewController.m in Sources */,
+				165A3BBC18AFD8A800D1926C /* CoreDataStack.m in Sources */,
 				16F2E7BD18AD6C57003EC330 /* AppDelegate.m in Sources */,
+				168C9CF118AFC8C80070BDAC /* Store.m in Sources */,
+				1681588A18B400C400214BE2 /* DraggableCellController.m in Sources */,
+				1681589018B5951A00214BE2 /* TodoTableHeaderView.m in Sources */,
 				16F2E7B918AD6C57003EC330 /* main.m in Sources */,
+				16F2E7E318AD6D6E003EC330 /* Model.xcdatamodeld in Sources */,
+				1681589318B698C400214BE2 /* ReorderableCellController.m in Sources */,
+				165A3BC218B016A200D1926C /* TodoTableViewCell.m in Sources */,
+				1681588718B2D85100214BE2 /* FetchedResultsControllerDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,26 +491,34 @@
 		};
 		16F2E7DC18AD6C57003EC330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFF4BD1F34347C983BE74DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Glasklart/Glasklart-Prefix.pch";
 				INFOPLIST_FILE = "Glasklart/Glasklart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		16F2E7DD18AD6C57003EC330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFF4BD1F34347C983BE74DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Glasklart/Glasklart-Prefix.pch";
 				INFOPLIST_FILE = "Glasklart/Glasklart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +584,7 @@
 				16F2E7DD18AD6C57003EC330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16F2E7DE18AD6C57003EC330 /* Build configuration list for PBXNativeTarget "GlasklartTests" */ = {
 			isa = XCConfigurationList;
@@ -468,8 +593,22 @@
 				16F2E7E018AD6C57003EC330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16F2E7E118AD6D6E003EC330 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16F2E7E218AD6D6E003EC330 /* Model.xcdatamodel */,
+			);
+			currentVersion = 16F2E7E218AD6D6E003EC330 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 16F2E7A118AD6C57003EC330 /* Project object */;
 }
